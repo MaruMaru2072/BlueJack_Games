@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:layout_marginBottom="350dp"
+        android:gravity="center"
+        android:text="Welcome, !"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="209dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/unknown__7_" />
+
+    <Button
+        android:id="@+id/buttonToGames"
+        android:layout_width="151dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#2CD3F1"
+        android:text="Games" />
+
+</FrameLayout>
